@@ -258,8 +258,9 @@ def edit(data,baris):
             case 14:
                 jenis_kelamin = input('masukan jenis kelamin\t\t:')
             case 15:
-                nama = input('masukan nama\t\t:')
-        ulang = input('edit data milik',nama,' lagi?(y/n)')
+                agama = input('masukan agama\t\t:')
+
+        ulang = input('edit data milik lagi?(y/n)')
         if ulang == 'y':
             pass
         else:
@@ -347,4 +348,3 @@ if __name__ == '__main__':
             break
             # print('Delete Data')
     clear_terminal()
-
